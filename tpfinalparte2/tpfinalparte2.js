@@ -7,8 +7,8 @@ let error;
 let punto;
 
 function preload() {
-  font1 = loadFont("/data/fonts/LibreBaskerville-Bold.ttf");
-  font2 = loadFont("/data/fonts/LibreBaskerville-Regular.ttf");
+  font1 = loadFont("/data/fonts/librebaskerville-bold.ttf");
+  font2 = loadFont("/data/fonts/librebaskerville-regular.ttf");
   error = loadSound("/data/sonidos/error.mp3");
   punto = loadSound("/data/sonidos/punto.mp3");
 }
