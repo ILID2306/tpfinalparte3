@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(23, 20, 20);
+}
+
+h1{
+ font-family: Libre Baskerville, serif;
+ color: whitesmoke;
+ text-align: center;
+}
+
+h3{
+    font-family: Libre Baskerville, serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h4{
+    font-family: Libre Baskerville, serif;
+    color: whitesmoke
+}
+
+h5{
+    font-family: Libre Baskerville, serif;
+    color: whitesmoke;
+}
+
+.no-border{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    }
+
+p{
+    font-family: Libre Baskerville, serif;
+    color: whitesmoke
+}
+
+a{
+    color: whitesmoke;
+    font-family: Libre Baskerville, serif;
+}
+
+article{
+    color: whitesmoke;
+    font-family: Libre Baskerville, serif;
+    background-color: rgb(82, 17, 17);
+}
+
+div.paper.container{
+    background-color: rgb(82, 17, 17);
+    margin: 30px auto
+}
+
+footer{
+    font-family: Libre Baskerville, serif;
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgb(82, 17, 17);
+    padding: 30px ;
+    margin: 30px 30%;
+}

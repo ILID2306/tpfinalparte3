@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Trabajo final - Etapa 3</title>
+</head>
+
+<body>
+  <div class="paper container">
+    <img src="data/img/AKIRA logo.png" class="no-border" id="inicio">
+    <h3>La aventura grafica</h3>
+    <p>UNLP - Facultad de Artes - Diseño Multimedia</p>
+    <ul class="breadcrumb border">
+      <li><a href="#introduccion">Introducción</a></li>
+      <li><a href="#aventura">Aventura Grafica</a></li>
+      <li><a href="#juego">Juego</a></li>
+      <li><a href="#conclusion">Conclusiones</a></li>
+    </ul>
+  </div>
+
+  <div class="paper container">
+    <article class="article">
+      <a href="#inicio"><img src="data/img/flecha1.png" alt="flecha"></a>
+      <h1 id="introduccion" class="article-title">Introducción</h1>
+      <p class="text-lead">Soy Ulises de Sousa, legajo 119007/0, estudiante de diseño multimedial en la facultad de
+        artes de la UNLP.</p>
+      <div class="row flex-center">
+        <div class="card" style="width: 20rem;">
+          <img src="data/img/foto_de_perfil.png" alt="cara">
+
+          <div class="card-body">
+            <h4 class="card-title">Ulises de Sousa</h4>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <div class="paper container">
+    <article class="article">
+      <a href="#inicio"><img src="data/img/flecha1.png" alt="flecha"></a>
+      <h1 id="aventura" class="article-title">Aventura Grafica</h1>
+      <p class="text-lead">Aqui se encontrara una explicacion de la idea detras de la aventura grafica, su proceso y
+        produccion, y una demostracion en forma de video</p>
+      <div class="row">
+        <div class="collapsible">
+          <input id="collapsible3" type="checkbox" name="collapsible">
+          <label for="collapsible3">Resumen</label>
+          <div class="collapsible-body">
+            <span> La aventura grafica fue originalmente pensada en su mayoria por mi excompañera de grupo, la aventura
+              recuenta los hechos de la pelicula añadiendo algunos finales alternativos, su estructura y programacion
+              atravesaron varias iteraciones, el proceso fue hecho con la asistencia de inteligencia artificial,
+              especificamente las imagenes, a peticion de el profesor, fueron hechas por IA. </span>
+          </div>
+        </div>
+
+        <div class="collapsible">
+          <input id="collapsible4" type="checkbox" name="collapsible">
+          <label for="collapsible4">Diagrama</label>
+          <div class="collapsible-body">
+            <span> La principal base del proyecto fue el diagrama de flujo, el cual detalla las distintas ramificaciones
+              que tomaria la historia, y tambien sus finales.</span>
+            <img src="data/img/diagrama.png" alt="diagrama">
+          </div>
+        </div>
+
+        <div class="collapsible">
+          <input id="collapsible5" type="checkbox" name="collapsible">
+          <label for="collapsible5">Video demostrativo</label>
+          <div class="collapsible-body">
+            <span> A continuacion se encuentra un video estilo "walkthrough" demostrando todas las rutas y finales de la
+              aventura grafica. </span>
+            <div class="row flex-spaces child-borders">
+              <label class="paper-btn margin" for="video">Video</label>
+            </div>
+
+            <input class="modal-state" id="video" type="checkbox">
+            <div class="modal">
+              <label class="modal-bg" for="video"></label>
+              <div class="modal-body">
+                <label class="btn-close" for="video">X</label>
+                <video width="640" height="480" controls>
+                  <source src="data/video/video demostracion.mp4" type="video/mp4">
+                  <p>Error: Su navegador no admite la etiqueta de video</p>
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+    </article>
+  </div>
+  
+  <div class="paper container">
+    <article class="article">
+      <a href="#inicio"><img src="data/img/flecha1.png" alt="flecha"></a>
+      <h1 id="juego" class="article-title">Juego</h1>
+      <p class="text-lead"> El minijuego consiste en atrapar "rayos psiquicos" que caen desde arriba de la pantalla, estos rayos aumentan en velocidad a lo largo del juego. Se gana al atrapar 20 rayos, pero se pierde si dejas caer 5.</p>
+
+      <div class="row flex-spaces child-borders">
+        <label class="paper-btn margin" for="juegomodal">Jugar</label>
+      </div>
+      <input class="modal-state" id="juegomodal" type="checkbox">
+      <div class="modal">
+        <label class="modal-bg" for="juegomodal"></label>
+        <div class="modal-body">
+          <label class="btn-close" for="juegomodal">X</label>
+          <iframe src="tpfinalparte2/index.html" frameborder="0" width="640" height="480"></iframe>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="collapsible">
+          <input id="collapsible7" type="checkbox" name="collapsible">
+          <label for="collapsible7">Desarrollo</label>
+          <div class="collapsible-body">
+            <span>El videojuego fue desarrollado utilizando principalmente objetos, lo cual era un metodo nuevo en la materia.
+
+              Los assets, a diferencia de la aventura grafica, fueron hechos por mi utilizando Photoshop, lo cual permitio mayor control del resultado final, a pesar del tamaño pequeño de los sprites
+            </span>
+
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="paper container">
+    <article class="article">
+      <a href="#inicio"><img src="data/img/flecha1.png" alt="flecha"></a>
+      <h1 id="conclusion" class="article-title">Conclusiones</h1>
+      <p class="text-lead"> Este trabajo fue una muy intuitiva introducción a los conceptos basicos de la programacion, utilizando un lenguaje muy amigable para principiantes como yo, y definitivamente me diverti haciendolo.
+
+        Quiero agradecer a los profesores y ayudantes por hacer esta clase llevadera.
+      </p>
+    </article>
+  </div>
+  
+  <footer>
+    <h5>Gracias por ver</h5>
+    <h5>Todos los derechos de Akira pertenecen a Warner Bros</h5>
+  </footer>
+
+</body>
+
+</html>
