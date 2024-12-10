@@ -43,14 +43,12 @@ class Juego {
       for ( let i=0; i<this.objetos.length; i++) {
         if ( this.objetos[i].evaluaColision( this.p.x, this.p.y) ) {
           this.puntos++;
-          punto.play();
         }
       }
 
       for ( let i=0; i<this.objetos.length; i++) {
         if ( this.objetos[i].evaluaDaño() ) {
           this.vidas--;
-          error.play();
         }
       }
       if (this.puntos === 20) {
