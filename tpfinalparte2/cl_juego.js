@@ -4,7 +4,7 @@ class Juego {
     this.pantallaVictoria = new Pantalla("VICTORIA", 60, 255, 40, 40, 5);
     this.pantallaPerdida = new Pantalla("PERDISTE", 60, 255, 40, 40, 5);
     this.estado = "inicio";
-    this.fondo = loadImage("/data/imagenes/fondo.jpg");
+    this.fondo = loadImage("data/imagenes/fondo.jpg");
     this.p = new Personaje();
     this.vidas = 5;
     this.botonInicio = new Boton("JUGAR", width/2, height*0.75, 100, 40);

@@ -6,7 +6,7 @@ class Personaje {
     this.vel = 9;
     this.ancho = 50;
     this.alto = 50;
-    this.img = loadImage("/data/imagenes/personaje.png");
+    this.img = loadImage("data/imagenes/personaje.png");
   }
   actualizar() {
     this.mover();

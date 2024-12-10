@@ -8,7 +8,7 @@ class Objetos {
     this.despY = vel_;
     this.lado = 60;
 
-    this.img = loadImage("/data/imagenes/objetos.png");
+    this.img = loadImage("data/imagenes/objetos.png");
 
     this.vivo = true;
   }
