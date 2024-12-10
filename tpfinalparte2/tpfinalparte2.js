@@ -7,14 +7,12 @@ let error;
 let punto;
 
 function preload() {
-  font1 = loadFont("/data/fonts/librebaskerville-bold.ttf");
-  font2 = loadFont("/data/fonts/librebaskerville-regular.ttf");
+
 }
 
 function setup() {
   createCanvas(640, 480);
   juego = new Juego();
-  textFont("Font1")
 }
 
 
